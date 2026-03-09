@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<color name="maroon">#800000</color>
+
+<!-- Add this line -->
+<color name="lightYellow">#FFF9C4</color>
+
+<color name="backgroundColor">#FFF9C4</color>
+
+<color name="white">#FFFFFF</color>
+<color name="black">#000000</color>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Study Break Timer"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnStudy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📚 Start Study (25 min)"/>
+
+    <Button
+        android:id="@+id/btnBreak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="☕ Take Break (5 min)"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📊 View Session History"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
